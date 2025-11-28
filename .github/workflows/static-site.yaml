@@ -10,10 +10,10 @@ jobs:
   stage-1-checkout:
     name: 1️⃣ Checkout Code
     runs-on: ubuntu-latest
+  
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
   stage-2-validate-html:
     name: 2️⃣ Validate HTML Syntax
     runs-on: ubuntu-latest
